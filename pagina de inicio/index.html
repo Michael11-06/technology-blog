@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Mi Blog</title>
+</head>
+
+<body>
+  <header>
+    <h1>Mi Blog</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="/publicaciones/publicaciones.html">Publicaciones</a></li>
+        <li><a href="/Inicio de sesion/registro.html">Cuenta</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Artículos destacados</h2>
+      <section>
+        <h3>Introducción a JavaScript</h3>
+        <p>Autor: Juan Pérez</p>
+        <p>Fecha: 01/01/2023</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer volutpat, nulla at condimentum dapibus,
+          nulla tellus eleifend libero, vitae pellentesque tortor metus eget eros. Sed fermentum libero vel feugiat
+          efficitur. Mauris quis ullamcorper magna.</p>
+        <button class="like-btn">Me gusta</button>
+        <button class="comment-btn">Comentar</button>
+        <div class="comment-form" style="display: none;">
+          <input type="text" placeholder="Tu nombre">
+          <input type="text" placeholder="Fecha (dd/mm/aaaa)">
+          <input type="text" placeholder="Tu comentario">
+          <button class="submit-comment-btn">Agregar comentario</button>
+        </div>
+      </article>
+      <!-- Repite el código anterior para más artículos destacados -->
+      <h3>Python para principiantes</h3>
+      <p>Autor: María Gómez</p>
+      <p>Fecha: 15/02/2023</p>
+      <p>Sed consectetur faucibus dui, vel consequat elit sollicitudin in. Nullam dignissim sapien quis gravida
+        volutpat. Proin condimentum rhoncus justo, in maximus velit. Curabitur suscipit, lacus eu laoreet cursus,
+        purus magna volutpat tortor, eu viverra est lectus at ligula.</p>
+      <button class="like-btn">Me gusta</button>
+      <button class="comment-btn">Comentar</button>
+      <div class="comment-form" style="display: none;">
+        <input type="text" placeholder="Tu nombre">
+        <input type="text" placeholder="Fecha (dd/mm/aaaa)">
+        <input type="text" placeholder="Tu comentario">
+        <button class="submit-comment-btn">Agregar comentario</button>
+      </div>
+    </article>
+    </section>
+
+    <section>
+      <h2>Artículos recientes</h2>
+      <article>
+        <!-- Aquí se muestran los artículos recientes de forma similar a los destacados -->
+        <article>
+            <h3>HTML y CSS avanzado</h3>
+            <p>Autor: Carlos Rodríguez</p>
+            <p>Fecha: 10/03/2023</p>
+            <p>Vivamus pellentesque iaculis leo, eget fringilla odio rhoncus ut. Suspendisse maximus tortor sed mi mattis
+              feugiat. Mauris auctor tortor nisl, vel varius libero venenatis id. Ut eleifend diam metus, a aliquam nunc
+              aliquam vitae. Nam ac tortor nec enim ultricies condimentum.</p>
+            <button class="like-btn">Me gusta</button>
+            <button class="comment-btn">Comentar</button>
+            <div class="comment-form" style="display: none;">
+              <input type="text" placeholder="Tu nombre">
+              <input type="text" placeholder="Fecha (dd/mm/aaaa)">
+              <input type="text" placeholder="Tu comentario">
+              <button class="submit-comment-btn">Agregar comentario</button>
+            </div>
+          </article>
+      <!-- Repite el código anterior para más artículos recientes -->
+    </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Derechos de autor &copy; 2023 Mi Blog. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

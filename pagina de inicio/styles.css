@@ -1,0 +1,125 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #111111;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  text-align: left;
+}
+
+h1:hover {
+  color: aqua;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  color: aqua;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+/* Estilos para los botones */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Estilos para los comentarios */
+.comments {
+  margin-top: 10px;
+}
+
+.comment {
+  margin-bottom: 10px;
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: #0a0a0a;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos para diseño responsive en celulares */
+@media screen and (max-width: 480px) {
+  header {
+    padding: 10px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  main {
+    padding: 0 10px;
+  }
+}
+
+/* Estilos para diseño responsive en tablets */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  header {
+    padding: 15px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+}
+
+/* Estilos para diseño responsive en computadoras */
+@media screen and (min-width: 1025px) {
+  header {
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: left;
+  }
+}
